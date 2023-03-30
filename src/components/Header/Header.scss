@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px #000000;
+  padding: 0 15px;
+  background-color: #fff;
+  background-image: url('../../img/1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  &_logo {
+    height: 40px;
+    width: 50px;
+
+    background-image: url('../../img/logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  &_content {
+    &_conteiner {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+
+      &_image {
+        width: 25px;
+        height: 25px;
+      }
+    }
+      &_text {
+  
+    }
+  }
+}

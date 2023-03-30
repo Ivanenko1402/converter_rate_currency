@@ -1,0 +1,39 @@
+@import './components/Form/Form.scss';
+@import './components/Header/Header.scss';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  background-color: rgb(243, 243, 243);
+  background-image: url('./img/121.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+hr {
+  box-shadow: 0 0 3px #000;
+  margin-bottom: 40px;
+}
+
+.page {
+  &_header {
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    padding: 5px 20px 20px;
+  }
+
+  &_form {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
+}
